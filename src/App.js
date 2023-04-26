@@ -1,7 +1,12 @@
+import './App.css';
+import { Desktop } from './Desktop';
+import { Mobile } from './Mobile';
+
 function App() {
   return (
     <div className="App">
-      This is the gold price tracking app
+      <Mobile />
+      <Desktop />
     </div>
   );
 }
