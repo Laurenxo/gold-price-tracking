@@ -1,12 +1,10 @@
 import './App.css';
-import { Desktop } from './Desktop';
-import { Mobile } from './Mobile';
+import { GoldTracking } from './GoldTracking';
 
 function App() {
   return (
     <div className="App">
-      <Mobile />
-      <Desktop />
+      <GoldTracking />
     </div>
   );
 }
