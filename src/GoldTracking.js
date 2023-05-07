@@ -1,8 +1,11 @@
-import logoCompany from "./images/logo-mobile.svg";
+import logoCompany from "./images/logo-company.svg";
+import logoMobile from "./images/logo-mobile.svg";
 import homeImg from "./images/home.svg";
 import globalImg from "./images/global.svg";
 import charmImg from "./images/charm-bg.svg";
+import charmMobileImg from "./images/charm-bg-mobile.svg";
 import lienHoaImg from "./images/lien-hoa.svg";
+import lienHoaMobileImg from "./images/lien-hoa-mobile.svg";
 import accessImg from "./images/access-bt-bg.svg";
 import bigLogoCompany from "./images/logo-331.svg";
 import boCongThuong from "./images/bo-cong-thuong.png";
@@ -33,7 +36,9 @@ import calendar from "./images/calendar.png";
 const GoldTracking = () => {
   return <div className="desktop-screen">
     <header className="header">
-      <img src={logoCompany} alt="Logo Company" />
+      <img srcSet={`${logoMobile} 244w, ${logoCompany} 212w`}
+        sizes="(max-width: 576px) 244px, 212px" alt="Logo Company" />
+      <b className="mobile-company-name">TẬP ĐOÀN VÀNG BẠC ĐÁ QUÝ PHÚ QUÝ</b>
       <ul className="header__address">
         <li>Cửa hàng: 30 Trần Nhân Tông, Hai Bà Trưng, Hà Nội</li>
         <li>Cửa hàng: 329 Cầu Giấy, Cầu Giấy, Hà Nội</li>
@@ -470,13 +475,15 @@ const GoldTracking = () => {
 
     <section className="main-product">
       <div className="bodhi-bg">
-        <img alt="Charm" src={charmImg} loading="lazy" />
+        <img alt="Charm" src={charmImg} loading="lazy"  className="charm-bg"/>
+        <img alt="Charm" src={charmMobileImg} loading="lazy"  className="charm-mobile-bg"/>
         <button className="main-product__find-product main-product__find-product--charm">
           Tìm Sản Phẩm
         </button>
       </div>
       <div className="bodhi-bg">
-        <img alt="Lien Hoa" src={lienHoaImg} loading="lazy" />
+        <img alt="Lien Hoa" src={lienHoaImg} loading="lazy" className="charm-bg" />
+        <img alt="Lien Hoa" src={lienHoaMobileImg} loading="lazy" className="charm-mobile-bg" />
         <button className="main-product__find-product">
           Tìm Sản Phẩm
         </button>
@@ -525,6 +532,13 @@ const GoldTracking = () => {
           <div className="company-info__address__right-block">
             <b className="company-info__hotline">HOTLINE VÀNG: 0243.944.7846</b>
             <b className="company-info__hotline">HOTLINE BẠC: 09.1111.3333</b>
+            <div className="company-info__mobile-address">
+              <ul>
+                <li>Cửa hàng    : 30 Trần Nhân Tông, Hai Bà Trưng, Hà Nội</li>
+                <li>Cửa hàng    : 329 Cầu Giấy, Cầu Giấy, Hà Nội</li>
+                <li>VPGD HCM : 175 Hàm Nghi, P.Nguyễn Thái Bình, Q1, TP.HCM</li>
+              </ul>
+            </div>
             <ul>
               <li>Công ty Cổ phần Đầu tư Vàng Phú Quý</li>
               <li>MST: 0102617088</li>

@@ -296,12 +296,6 @@ td {
   font-size: 12px;
 }
 
-@media only screen and (max-width: 1280px) {
-  .footer {
-    padding: 10px 10px;
-  }
-}
-
 .primary-header {
   font-size: 30px;
   font-weight: 700;
@@ -340,8 +334,215 @@ td {
   padding: 0 109px;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1281px) {
+  .footer {
+    padding: 10px 10px;
+  }
+
   .align-content {
     padding: 0 10px;
+  }
+}
+
+/* MOBILE CSS */
+.mobile-company-name {
+  display: none;
+}
+
+.company-info__mobile-address {
+  display: none;
+}
+
+.charm-mobile-bg {
+  display: none;
+}
+
+@media only screen and (max-width: 576px) {
+  .charm-mobile-bg {
+    display: block;
+  }
+  
+  .charm-bg {
+    display: none;
+  }
+
+  .header {
+    flex-direction: column;
+    padding: 34px 10px 13px 10px
+  }
+
+  .align-content {
+    padding: 0 40px;
+  }
+
+  .header ul {
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-top: 7px;
+  }
+
+  .header__address {
+    text-align: center;
+  }
+
+  .mobile-company-name {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #8B171A;
+    margin-top: 7px;
+    display: block;
+  }
+
+  .price-table__location {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 22px 10px;
+  }
+
+  .price-table__website {
+    font-size: 20px;
+    padding: 6px;
+  }
+
+  .price-table__website img {
+    height: 14px;
+    width: 14px;
+  }
+
+  .table-content {
+    font-size: 15px;
+  }
+
+  .td-all {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .td-all i {
+    font-size: 15px;
+  }
+
+  td {
+    font-size: 15px;
+  }
+
+  .table-filter span {
+    font-size: 16px;
+  }
+
+  .table-filter__calendar {
+    font-size: 12px;
+    padding: 0 6px;
+  }
+
+  .table-filter__calendar img {
+    height: 23px;
+  }
+
+  .main-product__find-product {
+    font-size: 9px;
+    line-height: 11px;
+    padding: 3px 7px;
+  }
+
+  .main-product__find-product--charm {
+    bottom: 10px;
+    left: 43%;
+  }
+
+  .main-product {
+    padding: 10px 10px 0 10px;
+  }
+
+  .access-website img {
+    width: 202px;
+  }
+
+  .company-info {
+    margin-top: 12px;
+  }
+
+  .company-info .primary-header {
+    max-width: 290px;
+  }
+
+  .company-info__intro {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+  }
+
+  .company-info__intro br {
+    margin-bottom: 10px;
+  }
+
+  .duo-header--top {
+    border-bottom: 1px solid #8F6626;
+  }
+
+  .company-info__logo {
+    width: 269px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0 0 10px 0;
+  }
+
+  .company-info__address {
+    padding: 28px 0 26px;
+  }
+
+  .company-info__name {
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  .company-info__address__left-block {
+    margin: 0 auto;
+  }
+
+  .company-info__address__left-block ul {
+    display: none;
+  }
+
+  .company-info__hotline {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .company-info__address__right-block {
+    padding: 0 30px;
+  }
+
+  .company-info__address__content ul {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .company-info__mobile-address {
+    display: block;
+  }
+
+  .footer {
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid #8F6626;
+    border-collapse: collapse;
+  }
+
+  .primary-header {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .secondary-header {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
   }
 }

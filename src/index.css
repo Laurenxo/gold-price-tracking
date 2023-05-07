@@ -9,6 +9,12 @@ body {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 576px) {
+  body {
+    font-size: 10px;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
