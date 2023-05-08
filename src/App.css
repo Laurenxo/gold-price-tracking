@@ -118,7 +118,7 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 23px;
-  color: #00FF0A;
+  color: #117c15;
   margin-right: 5px;
 }
 
@@ -132,7 +132,19 @@
   font-weight: 400;
 }
 
-table,
+.duo-column div:first-child {
+  border-right: 2px solid #8F6626;
+}
+
+.data-duo-column {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
 th,
 td {
   border: 2px solid #8F6626;
@@ -148,10 +160,11 @@ thead {
 }
 
 th div {
-  padding: 0 10px;
+  padding: 0 5px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 1;
 }
 
 th img {
@@ -159,10 +172,10 @@ th img {
 }
 
 td {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   color: #2E2E2D;
-  padding: 0 24px;
+  padding: 0 10px 0 20px;
 }
 
 .data-with-img {
@@ -230,23 +243,29 @@ td {
 
 .company-info .primary-header {
   text-align: center;
-  max-width: 520px;
+  max-width: 530px;
   margin: 0 auto 20px;
   display: block;
 }
 
 .company-info__intro {
   color: #222222;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.price-table__product-column {
+  width: 220px !important;
 }
 
 .company-info__intro br {
   content: "";
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 9px;
 }
 
 .company-info__address {
-  padding: 34px 0 26px;
+  padding: 31px 0 26px;
   border-bottom: solid 2px #8B171A;
   border-top: solid 2px #8B171A;
 }
@@ -270,13 +289,12 @@ td {
 }
 
 .company-info__logo {
-  margin: 0 0 13px 40px;
+  margin-bottom: 13px;
   display: block;
 }
 
 .company-info__name {
   color: #8B171A;
-  margin-left: 40px;
   display: block;
 }
 
@@ -321,7 +339,7 @@ td {
 }
 
 .table-content {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -411,20 +429,26 @@ td {
   }
 
   .table-content {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .td-all {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 600;
+    padding: 10px;
   }
 
   .td-all i {
-    font-size: 15px;
+    font-size: 13px;
+  }
+
+  .data-with-img img {
+    margin-left: 8px;
   }
 
   td {
-    font-size: 15px;
+    font-size: 13px;
+    padding: 0 5px 0 8px;
   }
 
   .table-filter span {
@@ -470,7 +494,6 @@ td {
   .company-info__intro {
     font-size: 12px;
     line-height: 18px;
-    text-align: justify;
   }
 
   .company-info__intro br {
@@ -526,6 +549,10 @@ td {
   .footer {
     margin-right: 0;
     justify-content: center;
+  }
+
+  .price-table__product-column {
+    width: 230px;
   }
 
   table,

@@ -2,10 +2,10 @@ import logoCompany from "./images/logo-company.svg";
 import logoMobile from "./images/logo-mobile.svg";
 import homeImg from "./images/home.svg";
 import globalImg from "./images/global.svg";
-import charmImg from "./images/charm-bg.svg";
-import charmMobileImg from "./images/charm-bg-mobile.svg";
-import lienHoaImg from "./images/lien-hoa.svg";
-import lienHoaMobileImg from "./images/lien-hoa-mobile.svg";
+import charmImg from "./images/charm-bg.png";
+import charmMobileImg from "./images/charm-bg.png";
+import lienHoaImg from "./images/lien-hoa.png";
+import lienHoaMobileImg from "./images/lien-hoa.png";
 import accessImg from "./images/access-bt-bg.svg";
 import bigLogoCompany from "./images/logo-331.svg";
 import boCongThuong from "./images/bo-cong-thuong.png";
@@ -60,13 +60,13 @@ const GoldTracking = () => {
       <table className="price-table__tracking">
         <thead className="table-content table-content--header">
           <tr>
-            <th style={{ width: '254px' }}>
+            <th style={{width: '10%'}}>
               <div>
                 <img alt="Product" src={pencil} />
                 Sản phẩm
               </div>
             </th>
-            <th>
+            <th >
               <div>
                 <img alt="Sell" src={download} />
                 Mua vào <br />(vnđ/chỉ)
@@ -91,14 +91,21 @@ const GoldTracking = () => {
                 Loại
               </div>
             </th>
-            <th>
+            <th colSpan={2}>
               <div className="duo-header duo-header--top">
                 <img alt="Price" src={coin} />
                 Giá vàng bán buôn
               </div>
-              <div>
-                <img alt="Buy" src={upload} />
-                Mua vào
+              <div className="duo-column">
+                <div>
+                  <img alt="Buy" src={upload} />
+                  Mua vào
+                </div>
+                <div>
+                  <img alt="Sell" src={download} />
+                  Bán ra
+                </div>
+
               </div>
             </th>
           </tr>
@@ -126,7 +133,12 @@ const GoldTracking = () => {
               <img alt="Gold plate" src={goldPlate} />
             </td>
             <td>SJC</td>
-            <td>6,640,000</td>
+            <td>
+              6,640,000
+            </td>
+            <td>
+              6,640,000
+            </td>
           </tr>
 
           <tr>
@@ -151,10 +163,11 @@ const GoldTracking = () => {
             </td>
             <td>SJN</td>
             <td>6,640,000</td>
+            <td>6,640,000</td>
           </tr>
 
           <tr>
-            <td colSpan="7" className="td-all">VÀNG PHÚ QUÝ 999.9</td>
+            <td colSpan="8" className="td-all">VÀNG PHÚ QUÝ 999.9</td>
           </tr>
 
           <tr>
@@ -178,6 +191,7 @@ const GoldTracking = () => {
               <img alt="Gold plate" src={bracelet} />
             </td>
             <td>NPQ</td>
+            <td>6,640,000</td>
             <td>6,640,000</td>
           </tr>
 
@@ -203,6 +217,7 @@ const GoldTracking = () => {
             </td>
             <td>TPQ</td>
             <td>6,640,000</td>
+            <td>6,640,000</td>
           </tr>
 
           <tr>
@@ -226,6 +241,7 @@ const GoldTracking = () => {
               <img alt="Gold plate" src={goldCoin} />
             </td>
             <td>CNG</td>
+            <td>6,640,000</td>
             <td>6,640,000</td>
           </tr>
 
@@ -251,62 +267,11 @@ const GoldTracking = () => {
             </td>
             <td>VT1</td>
             <td>6,640,000</td>
-          </tr>
-
-          <tr>
-            <td colSpan="7" className="td-all">BẠC NGUYÊN CHẤT 99.9</td>
-          </tr>
-
-          <tr>
-            <td>Bạc nguyên chất 99.9</td>
-            <td>
-              <div className="data-with-img">
-                6,640,000
-                <img src={increase} alt="Increase" />
-              </div>
-            </td>
-            <td>
-              <div className="data-with-img">
-                6,640,000
-                <img src={increase} alt="Increase" />
-              </div>
-            </td>
-            <td>
-              6,640,000
-            </td>
-            <td>
-              <img alt="Gold plate" src={silverPlate} />
-            </td>
-            <td>BAC</td>
             <td>6,640,000</td>
           </tr>
 
           <tr>
-            <td>Bạc mỹ nghệ 99.9 <span className="td-additional">(10chỉ)</span></td>
-            <td>
-              <div className="data-with-img">
-                6,640,000
-                <img src={decrease} alt="Increase" />
-              </div>
-            </td>
-            <td>
-              <div className="data-with-img">
-                6,640,000
-                <img src={decrease} alt="Increase" />
-              </div>
-            </td>
-            <td>
-              6,640,000
-            </td>
-            <td>
-              <img alt="Gold plate" src={silverCoin} />
-            </td>
-            <td>BM1</td>
-            <td>6,640,000</td>
-          </tr>
-
-          <tr>
-            <td colSpan="7" className="td-all">VÀNG TRANG SỨC</td>
+            <td colSpan="8" className="td-all">VÀNG TRANG SỨC</td>
           </tr>
 
           <tr>
@@ -330,6 +295,7 @@ const GoldTracking = () => {
               <img alt="Gold plate" src={ringJewGold} />
             </td>
             <td>24K</td>
+            <td>6,640,000</td>
             <td>6,640,000</td>
           </tr>
 
@@ -355,6 +321,7 @@ const GoldTracking = () => {
             </td>
             <td>999</td>
             <td>6,640,000</td>
+            <td>6,640,000</td>
           </tr>
 
           <tr>
@@ -378,6 +345,7 @@ const GoldTracking = () => {
               <img alt="Gold plate" src={bracelet} />
             </td>
             <td>99</td>
+            <td>6,640,000</td>
             <td>6,640,000</td>
           </tr>
 
@@ -403,6 +371,7 @@ const GoldTracking = () => {
             </td>
             <td>V999</td>
             <td>6,640,000</td>
+            <td>6,640,000</td>
           </tr>
 
           <tr>
@@ -426,6 +395,7 @@ const GoldTracking = () => {
               <img alt="Gold plate" src={earRing} />
             </td>
             <td>V999</td>
+            <td>6,640,000</td>
             <td>6,640,000</td>
           </tr>
 
@@ -451,12 +421,67 @@ const GoldTracking = () => {
             </td>
             <td>V99</td>
             <td>6,640,000</td>
+            <td>6,640,000</td>
           </tr>
 
           <tr>
-            <td colSpan="7" className="td-all">
+            <td colSpan="8" className="td-all">BẠC NGUYÊN CHẤT 99.9</td>
+          </tr>
+
+          <tr>
+            <td>Bạc nguyên chất 99.9</td>
+            <td>
+              <div className="data-with-img">
+                6,640,000
+                <img src={increase} alt="Increase" />
+              </div>
+            </td>
+            <td>
+              <div className="data-with-img">
+                6,640,000
+                <img src={increase} alt="Increase" />
+              </div>
+            </td>
+            <td>
+              6,640,000
+            </td>
+            <td>
+              <img alt="Gold plate" src={silverPlate} />
+            </td>
+            <td>BAC</td>
+            <td>6,640,000</td>
+            <td>6,640,000</td>
+          </tr>
+
+          <tr>
+            <td>Bạc mỹ nghệ 99.9 <span className="td-additional">(10chỉ)</span></td>
+            <td>
+              <div className="data-with-img">
+                6,640,000
+                <img src={decrease} alt="Increase" />
+              </div>
+            </td>
+            <td>
+              <div className="data-with-img">
+                6,640,000
+                <img src={decrease} alt="Increase" />
+              </div>
+            </td>
+            <td>
+              6,640,000
+            </td>
+            <td>
+              <img alt="Gold plate" src={silverCoin} />
+            </td>
+            <td>BM1</td>
+            <td>6,640,000</td>
+            <td>6,640,000</td>
+          </tr>
+
+          <tr>
+            <td colSpan="8" className="td-all">
               <i>Cập nhật ngày 01/03/2023, lúc 12:30:30<br />
-                Đơn vị tính: vnđt/chỉ</i>
+                Đơn vị tính: vnđ/chỉ</i>
             </td>
           </tr>
 
@@ -475,8 +500,8 @@ const GoldTracking = () => {
 
     <section className="main-product">
       <div className="bodhi-bg">
-        <img alt="Charm" src={charmImg} loading="lazy"  className="charm-bg"/>
-        <img alt="Charm" src={charmMobileImg} loading="lazy"  className="charm-mobile-bg"/>
+        <img alt="Charm" src={charmImg} loading="lazy" className="charm-bg" />
+        <img alt="Charm" src={charmMobileImg} loading="lazy" className="charm-mobile-bg" />
         <button className="main-product__find-product main-product__find-product--charm">
           Tìm Sản Phẩm
         </button>
