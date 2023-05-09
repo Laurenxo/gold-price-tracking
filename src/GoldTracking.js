@@ -1,5 +1,4 @@
-import logoCompany from "./images/logo-company.svg";
-import logoHeaderCompany from "./images/logo-cp-header-mobile.svg";
+import logoHeaderCompany from "./images/logo-cp-header-mobile.png";
 import homeImg from "./images/home.svg";
 import globalImg from "./images/global.svg";
 import charmImg from "./images/charm-bg.png";
@@ -7,8 +6,6 @@ import charmMobileImg from "./images/charm-bg.png";
 import lienHoaImg from "./images/lien-hoa.png";
 import lienHoaMobileImg from "./images/lien-hoa.png";
 import accessImg from "./images/access-bt-bg.svg";
-import bigLogoCompany from "./images/logo-331.svg";
-import bigLogoCompanyMobile from "./images/company-logo-footer-mobile.svg";
 import boCongThuong from "./images/bo-cong-thuong.png";
 import pencil from "./images/pencil.svg";
 import download from "./images/download.svg";
@@ -37,8 +34,7 @@ import calendar from "./images/calendar.png";
 const GoldTracking = () => {
   return <div className="desktop-screen">
     <header className="header">
-      <img srcset={`${logoCompany} 214w, ${logoHeaderCompany} 244w`}
-              sizes="(max-width: 576px) 244px, 214px" src={logoCompany} alt="Logo Company" className="header-logo" />
+      <img src={logoHeaderCompany} alt="Logo Company" className="header-logo" />
       <b className="mobile-company-name">TẬP ĐOÀN VÀNG BẠC ĐÁ QUÝ PHÚ QUÝ</b>
       <ul className="header__address">
         <li>Cửa hàng: 30 Trần Nhân Tông, Hai Bà Trưng, Hà Nội</li>
@@ -565,9 +561,7 @@ const GoldTracking = () => {
       <div className="company-info__address">
         <div className="company-info__address__content">
           <div className="company-info__address__left-block">
-            <img alt="Phu Quy Logo" srcset={`${bigLogoCompanyMobile} 269w, ${bigLogoCompany} 331w`}
-              sizes="(max-width: 576px) 269px, 331px"
-              src={bigLogoCompany} className="company-info__logo" />
+            <img alt="Phu Quy Logo" src={logoHeaderCompany} className="company-info__logo" />
             <b className="company-info__name">TẬP ĐOÀN VÀNG BẠC ĐÁ QUÝ PHÚ QUÝ</b>
             <ul>
               <li>Cửa hàng    : 30 Trần Nhân Tông, Hai Bà Trưng, Hà Nội</li>

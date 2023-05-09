@@ -12,6 +12,10 @@
   align-items: center;
 }
 
+.header-logo {
+  width: 212.74px;
+}
+
 @media only screen and (max-width: 1280px) {
   .header {
     padding: 34px 10px 25px 10px;
@@ -293,7 +297,7 @@ td:not(:first-child) {
 
 .company-info__logo {
   margin-bottom: 13px;
-  display: block;
+  width: 331px;
 }
 
 .company-info__name {
@@ -391,6 +395,10 @@ td:not(:first-child) {
     flex-direction: column;
     padding: 34px 10px 13px 10px
   }
+
+  .header-logo {
+    width: 244px;
+}
 
   .align-content {
     padding: 0 40px;
@@ -530,6 +538,10 @@ td:not(:first-child) {
   .company-info__address__content ul {
     font-size: 14px;
     line-height: 25px;
+  }
+
+  .company-info__logo {
+    width: 269px;
   }
 
   .company-info__mobile-address {
