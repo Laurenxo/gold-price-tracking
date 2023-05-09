@@ -12,12 +12,6 @@
   align-items: center;
 }
 
-.header-logo {
-  width: 212.74px;
-  height: 39.13px;
-  object-fit: cover;
-}
-
 @media only screen and (max-width: 1280px) {
   .header {
     padding: 34px 10px 25px 10px;
@@ -505,13 +499,6 @@ td:not(:first-child) {
 
   .duo-header--top {
     border-bottom: 1px solid #8F6626;
-  }
-
-  .company-info__logo {
-    width: 271px;
-    height: 50px;
-    object-fit: cover;
-    margin: 0 0 10px 0;
   }
 
   .company-info__address {
