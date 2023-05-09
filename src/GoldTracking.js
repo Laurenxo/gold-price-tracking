@@ -165,7 +165,7 @@ const GoldTracking = () => {
           </tr>
 
           <tr>
-            <td colSpan="8" className="td-all">
+            <td colSpan="8" className="td-all td-all-mobile">
               VÀNG PHÚ QUÝ 999.9
             </td>
           </tr>
@@ -271,7 +271,7 @@ const GoldTracking = () => {
           </tr>
 
           <tr>
-            <td colSpan="8" className="td-all">
+            <td colSpan="8" className="td-all td-all-mobile">
               VÀNG TRANG SỨC
             </td>
           </tr>
@@ -427,7 +427,7 @@ const GoldTracking = () => {
           </tr>
 
           <tr>
-            <td colSpan="8" className="td-all">BẠC NGUYÊN CHẤT 99.9
+            <td colSpan="8" className="td-all td-all-mobile">BẠC NGUYÊN CHẤT 99.9
             </td>
           </tr>
 
@@ -482,8 +482,8 @@ const GoldTracking = () => {
           </tr>
 
           <tr>
-            <td colSpan="8" className="td-all">
-                <i>Cập nhật ngày 09/05/2023, lúc 12:30:30<br />
+            <td colSpan="8" className="td-all td-all-mobile">
+                <i><div>Cập nhật ngày 09/05/2023, lúc 12:30:30</div>
                   Đơn vị tính: vnđ/chỉ</i>
             </td>
           </tr>

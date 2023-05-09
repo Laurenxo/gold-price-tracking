@@ -444,16 +444,6 @@ td {
     font-size: 13px;
   }
 
-  .td-all {
-    font-size: 12px;
-    font-weight: 600;
-    padding: 10px;
-  }
-
-  .td-all i {
-    font-size: 12px;
-  }
-
   .td-additional {
     font-size: 11px;
   }
@@ -587,5 +577,18 @@ td {
     font-size: 16px;
     line-height: 19px;
     font-weight: 700;
+  }
+
+  .td-all {
+    font-size: 8px;
+    font-weight: 600;
+    padding: 10px;
+    padding: 4px 10px;
+  }
+
+  .td-all i {
+    font-size: 7px;
+    line-height: 7px;
+    display: block;
   }
 }
