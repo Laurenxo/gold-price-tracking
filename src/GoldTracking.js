@@ -1,4 +1,4 @@
-import logoCompany from "./images/logo-company.svg";
+// import logoCompany from "./images/logo-company.svg";
 import homeImg from "./images/home.svg";
 import globalImg from "./images/global.svg";
 import charmImg from "./images/charm-bg.png";
@@ -35,7 +35,7 @@ import calendar from "./images/calendar.png";
 const GoldTracking = () => {
   return <div className="desktop-screen">
     <header className="header">
-      <img src={logoCompany} alt="Logo Company" className="header-logo" />
+      <img src={bigLogoCompany} alt="Logo Company" className="header-logo" />
       <b className="mobile-company-name">TẬP ĐOÀN VÀNG BẠC ĐÁ QUÝ PHÚ QUÝ</b>
       <ul className="header__address">
         <li>Cửa hàng: 30 Trần Nhân Tông, Hai Bà Trưng, Hà Nội</li>
@@ -76,12 +76,6 @@ const GoldTracking = () => {
                 Mua vào <br />(vnđ/chỉ)
               </div>
             </th>
-            <th>
-              <div>
-                <img alt="Product" src={hammer} />
-                Phí <br />chế tác
-              </div>
-            </th>
             <th></th>
             <th>
               <div>
@@ -106,6 +100,12 @@ const GoldTracking = () => {
 
               </div>
             </th>
+            <th>
+              <div>
+                <img alt="Product" src={hammer} />
+                Phí <br />chế tác
+              </div>
+            </th>
           </tr>
         </thead>
 
@@ -125,12 +125,12 @@ const GoldTracking = () => {
               </div>
             </td>
             <td>
-              6,640,000
-            </td>
-            <td>
               <img alt="Gold plate" src={goldPlate} />
             </td>
             <td>SJC</td>
+            <td>
+              6,640,000
+            </td>
             <td>
               6,640,000
             </td>
@@ -154,14 +154,14 @@ const GoldTracking = () => {
               </div>
             </td>
             <td>
-              6,640,000
-            </td>
-            <td>
               <img alt="Gold plate" src={goldPlateSmall} />
             </td>
             <td>SJN</td>
             <td>6,640,000</td>
             <td>6,640,000</td>
+            <td>
+              6,640,000
+            </td>
           </tr>
 
           <tr>
@@ -184,15 +184,16 @@ const GoldTracking = () => {
                 <img src={equal} alt="Increase" />
               </div>
             </td>
-            <td>
-              6,640,000
-            </td>
+
             <td>
               <img alt="Gold plate" src={bracelet} />
             </td>
             <td>NPQ</td>
             <td>6,640,000</td>
             <td>6,640,000</td>
+            <td>
+              6,640,000
+            </td>
           </tr>
 
           <tr>
@@ -209,15 +210,16 @@ const GoldTracking = () => {
                 <img src={increase} alt="Increase" />
               </div>
             </td>
-            <td>
-              6,640,000
-            </td>
+
             <td>
               <img alt="Gold plate" src={goldAPlate} />
             </td>
             <td>TPQ</td>
             <td>6,640,000</td>
             <td>6,640,000</td>
+            <td>
+              6,640,000
+            </td>
           </tr>
 
           <tr>
@@ -234,15 +236,16 @@ const GoldTracking = () => {
                 <img src={decrease} alt="Increase" />
               </div>
             </td>
-            <td>
-              6,640,000
-            </td>
+
             <td>
               <img alt="Gold plate" src={goldCoin} />
             </td>
             <td>CNG</td>
             <td>6,640,000</td>
             <td>6,640,000</td>
+            <td>
+              6,640,000
+            </td>
           </tr>
 
           <tr>
@@ -259,15 +262,16 @@ const GoldTracking = () => {
                 <img src={decrease} alt="Increase" />
               </div>
             </td>
-            <td>
-              6,640,000
-            </td>
+
             <td>
               <img alt="Gold plate" src={goldCat} />
             </td>
             <td>VT1</td>
             <td>6,640,000</td>
             <td>6,640,000</td>
+            <td>
+              6,640,000
+            </td>
           </tr>
 
           <tr>
@@ -290,19 +294,19 @@ const GoldTracking = () => {
                 <img src={equal} alt="Increase" />
               </div>
             </td>
-            <td>
-              6,640,000
-            </td>
+
             <td>
               <img alt="Gold plate" src={ringJewGold} />
             </td>
             <td>24K</td>
             <td>6,640,000</td>
             <td>6,640,000</td>
+            <td>6,640,000</td>
+
           </tr>
 
           <tr>
-            <td>Vàng trang sức 999.9<span className="td-additional">Phú Quý</span></td>
+            <td>Vàng trang sức 99.9<span className="td-additional">Phú Quý</span></td>
             <td>
               <div className="data-with-img">
                 6,640,000
@@ -315,115 +319,120 @@ const GoldTracking = () => {
                 <img src={increase} alt="Increase" />
               </div>
             </td>
-            <td>
-              6,640,000
-            </td>
+
             <td>
               <img alt="Gold plate" src={squareGold} />
             </td>
             <td>999</td>
             <td>6,640,000</td>
             <td>6,640,000</td>
-          </tr>
-
-          <tr>
-            <td>Vàng trang sức 999.9<span className="td-additional">Phú Quý</span></td>
-            <td>
-              <div className="data-with-img">
-                6,640,000
-                <img src={decrease} alt="Increase" />
-              </div>
-            </td>
-            <td>
-              <div className="data-with-img">
-                6,640,000
-                <img src={decrease} alt="Increase" />
-              </div>
-            </td>
             <td>
               6,640,000
             </td>
+          </tr>
+
+          <tr>
+            <td>Vàng trang sức 99<span className="td-additional">Phú Quý</span></td>
+            <td>
+              <div className="data-with-img">
+                6,640,000
+                <img src={decrease} alt="Increase" />
+              </div>
+            </td>
+            <td>
+              <div className="data-with-img">
+                6,640,000
+                <img src={decrease} alt="Increase" />
+              </div>
+            </td>
+
             <td>
               <img alt="Gold plate" src={bracelet} />
             </td>
             <td>99</td>
             <td>6,640,000</td>
             <td>6,640,000</td>
-          </tr>
-
-          <tr>
-            <td>Vàng trang sức 999.9<span className="td-additional">Phú Quý</span></td>
-            <td>
-              <div className="data-with-img">
-                6,640,000
-                <img src={equal} alt="Increase" />
-              </div>
-            </td>
-            <td>
-              <div className="data-with-img">
-                6,640,000
-                <img src={equal} alt="Increase" />
-              </div>
-            </td>
             <td>
               6,640,000
             </td>
+          </tr>
+
+          <tr>
+            <td>Vàng trang sức 999.9<span className="td-additional">Thị Trường</span></td>
+            <td>
+              <div className="data-with-img">
+                6,640,000
+                <img src={equal} alt="Increase" />
+              </div>
+            </td>
+            <td>
+              <div className="data-with-img">
+                6,640,000
+                <img src={equal} alt="Increase" />
+              </div>
+            </td>
+
             <td>
               <img alt="Gold plate" src={goldBudda} />
             </td>
             <td>V999</td>
             <td>6,640,000</td>
             <td>6,640,000</td>
-          </tr>
-
-          <tr>
-            <td>Vàng trang sức 999.9<span className="td-additional">Phú Quý</span></td>
-            <td>
-              <div className="data-with-img">
-                6,640,000
-                <img src={increase} alt="Increase" />
-              </div>
-            </td>
-            <td>
-              <div className="data-with-img">
-                6,640,000
-                <img src={increase} alt="Increase" />
-              </div>
-            </td>
             <td>
               6,640,000
             </td>
+          </tr>
+
+          <tr>
+            <td>Vàng trang sức 99.9<span className="td-additional">Thị Trường</span></td>
+            <td>
+              <div className="data-with-img">
+                6,640,000
+                <img src={increase} alt="Increase" />
+              </div>
+            </td>
+            <td>
+              <div className="data-with-img">
+                6,640,000
+                <img src={increase} alt="Increase" />
+              </div>
+            </td>
+
             <td>
               <img alt="Gold plate" src={earRing} />
             </td>
             <td>V999</td>
             <td>6,640,000</td>
             <td>6,640,000</td>
-          </tr>
-
-          <tr>
-            <td>Vàng trang sức 999.9<span className="td-additional">Phú Quý</span></td>
-            <td>
-              <div className="data-with-img">
-                6,640,000
-                <img src={increase} alt="Increase" />
-              </div>
-            </td>
-            <td>
-              <div className="data-with-img">
-                6,640,000
-                <img src={increase} alt="Increase" />
-              </div>
-            </td>
             <td>
               6,640,000
             </td>
+          </tr>
+
+          <tr>
+            <td>Vàng trang sức 99<span className="td-additional">Thị Trường</span></td>
+            <td>
+              <div className="data-with-img">
+                6,640,000
+                <img src={increase} alt="Increase" />
+              </div>
+            </td>
+            <td>
+              <div className="data-with-img">
+                6,640,000
+                <img src={increase} alt="Increase" />
+              </div>
+            </td>
+
             <td>
               <img alt="Gold plate" src={nhanHoa} />
             </td>
             <td>V99</td>
             <td>6,640,000</td>
             <td>6,640,000</td>
+            <td>
+              6,640,000
+            </td>
           </tr>
 
           <tr>
@@ -445,15 +454,16 @@ const GoldTracking = () => {
                 <img src={increase} alt="Increase" />
               </div>
             </td>
-            <td>
-              6,640,000
-            </td>
+
             <td>
               <img alt="Gold plate" src={silverPlate} />
             </td>
             <td>BAC</td>
             <td>6,640,000</td>
             <td>6,640,000</td>
+            <td>
+              6,640,000
+            </td>
           </tr>
 
           <tr>
@@ -470,21 +480,22 @@ const GoldTracking = () => {
                 <img src={decrease} alt="Increase" />
               </div>
             </td>
-            <td>
-              6,640,000
-            </td>
+
             <td>
               <img alt="Gold plate" src={silverCoin} />
             </td>
             <td>BM1</td>
             <td>6,640,000</td>
             <td>6,640,000</td>
+            <td>
+              6,640,000
+            </td>
           </tr>
 
           <tr>
             <td colSpan="8" className="td-all td-all-mobile">
-                <i><div>Cập nhật ngày 09/05/2023, lúc 12:30:30</div>
-                  Đơn vị tính: vnđ/chỉ</i>
+              <i><div>Cập nhật ngày 09/05/2023, lúc 12:30:30</div>
+                Đơn vị tính: vnđ/chỉ</i>
             </td>
           </tr>
 
@@ -530,14 +541,17 @@ const GoldTracking = () => {
       <b className="secondary-header align-content">
         Tập Đoàn Vàng bạc Đá quý Phú Quý
       </b>
-      <p className="align-content company-info__intro"> Được thành lập từ năm 2003 đến nay, Phú Quý đã trở thành bảo
+      <p className="align-content company-info__intro"> 
+        Được thành lập từ năm 2003 đến nay, Phú Quý đã trở thành bảo
         chứng của sự uy tín trong lòng khách hàng cũng như trên thị trường
-        vàng bạc đá quý tại Hà Nội.<br />
+        vàng bạc đá quý tại Hà Nội.
+        <div className="company-info__intro__separation"></div>
 
         Với phương châm kinh doanh trọng chữ tín, luôn đảm bảo tối đa lợi
         ích của khách hàng, Phú Quý đã dần trở thành thương hiệu quen thuộc
         và được tín nhiệm bởi nhiều khách hàng, cho đến các doanh nghiệp, công
-        ty trong và ngoài nước.<br />
+        ty trong và ngoài nước.
+        <div className="company-info__intro__separation"></div>
 
         Không những tập trung chủ đạo vào các lĩnh vực kinh doanh phân phối và
         bán lẻ vàng miếng SJC, trang sức vàng, Phú Quý chú trọng vào phát triển
@@ -570,7 +584,7 @@ const GoldTracking = () => {
             <ul>
               <li>Công ty Cổ phần Đầu tư Vàng Phú Quý</li>
               <li>MST: 0102617088</li>
-              <li>Trụ sở chính: Số 30 Trần Nhân Tông, Phường Nguyễn Du
+              <li>Trụ sở chính: Số 30 Trần Nhân Tông, Phường Nguyễn Du,
                 Quận Hai Bà Trưng, Thành phố Hà Nội, Việt Nam</li>
             </ul>
           </div>

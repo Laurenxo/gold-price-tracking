@@ -181,13 +181,18 @@ td {
   font-size: 18px;
   font-weight: 600;
   color: #2E2E2D;
-  padding: 0 10px 0 20px;
+  padding: 0 10px 0 10px;
+}
+
+td:not(:first-child) {
+  text-align: center;
 }
 
 .data-with-img {
   display: flex;
   align-items: center;
   color: #BD0000;
+  justify-content: center;
 }
 
 .data-with-img img {
@@ -249,7 +254,7 @@ td {
 
 .company-info .primary-header {
   text-align: center;
-  max-width: 530px;
+  max-width: 560px;
   margin: 0 auto 20px;
   display: block;
 }
@@ -264,10 +269,8 @@ td {
   width: 220px !important;
 }
 
-.company-info__intro br {
-  content: "";
-  display: block;
-  margin-bottom: 9px;
+.company-info__intro__separation {
+  height: 10px;
 }
 
 .company-info__address {
@@ -395,12 +398,6 @@ td {
     padding: 34px 10px 13px 10px
   }
 
-  .header-logo {
-    width: 244px;
-    height: 45px;
-    object-fit: cover;
-  }
-
   .align-content {
     padding: 0 40px;
   }
@@ -494,7 +491,7 @@ td {
   }
 
   .company-info .primary-header {
-    max-width: 290px;
+    max-width: 310px;
   }
 
   .company-info__intro {
@@ -502,8 +499,8 @@ td {
     line-height: 18px;
   }
 
-  .company-info__intro br {
-    margin-bottom: 10px;
+  .company-info__intro__separation {
+    height: 7px;
   }
 
   .duo-header--top {
@@ -555,6 +552,14 @@ td {
   .footer {
     margin-right: 0;
     justify-content: center;
+  }
+
+  .footer img {
+    width: 120px;
+  }
+
+  .footer__copyright {
+    font-size: 11px;
   }
 
   .price-table__product-column {
