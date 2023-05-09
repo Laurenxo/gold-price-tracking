@@ -1,5 +1,4 @@
 import logoCompany from "./images/logo-company.svg";
-import logoMobile from "./images/logo-mobile.svg";
 import homeImg from "./images/home.svg";
 import globalImg from "./images/global.svg";
 import charmImg from "./images/charm-bg.png";
@@ -36,8 +35,7 @@ import calendar from "./images/calendar.png";
 const GoldTracking = () => {
   return <div className="desktop-screen">
     <header className="header">
-      <img srcSet={`${logoMobile} 244w, ${logoCompany} 212w`}
-        sizes="(max-width: 576px) 244px, 212px" alt="Logo Company" />
+      <img src={logoCompany} alt="Logo Company" className="header-logo" />
       <b className="mobile-company-name">TẬP ĐOÀN VÀNG BẠC ĐÁ QUÝ PHÚ QUÝ</b>
       <ul className="header__address">
         <li>Cửa hàng: 30 Trần Nhân Tông, Hai Bà Trưng, Hà Nội</li>
@@ -60,7 +58,7 @@ const GoldTracking = () => {
       <table className="price-table__tracking">
         <thead className="table-content table-content--header">
           <tr>
-            <th style={{width: '10%'}}>
+            <th style={{ width: '10%' }}>
               <div>
                 <img alt="Product" src={pencil} />
                 Sản phẩm
@@ -167,7 +165,9 @@ const GoldTracking = () => {
           </tr>
 
           <tr>
-            <td colSpan="8" className="td-all">VÀNG PHÚ QUÝ 999.9</td>
+            <td colSpan="8" className="td-all">
+              VÀNG PHÚ QUÝ 999.9
+            </td>
           </tr>
 
           <tr>
@@ -271,7 +271,9 @@ const GoldTracking = () => {
           </tr>
 
           <tr>
-            <td colSpan="8" className="td-all">VÀNG TRANG SỨC</td>
+            <td colSpan="8" className="td-all">
+              VÀNG TRANG SỨC
+            </td>
           </tr>
 
           <tr>
@@ -425,7 +427,8 @@ const GoldTracking = () => {
           </tr>
 
           <tr>
-            <td colSpan="8" className="td-all">BẠC NGUYÊN CHẤT 99.9</td>
+            <td colSpan="8" className="td-all">BẠC NGUYÊN CHẤT 99.9
+            </td>
           </tr>
 
           <tr>
@@ -480,8 +483,8 @@ const GoldTracking = () => {
 
           <tr>
             <td colSpan="8" className="td-all">
-              <i>Cập nhật ngày 01/03/2023, lúc 12:30:30<br />
-                Đơn vị tính: vnđ/chỉ</i>
+                <i>Cập nhật ngày 09/05/2023, lúc 12:30:30<br />
+                  Đơn vị tính: vnđ/chỉ</i>
             </td>
           </tr>
 
