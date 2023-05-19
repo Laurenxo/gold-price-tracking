@@ -6,7 +6,6 @@ import lienHoaImg from "./images/lien-hoa.png";
 import lienHoaMobileImg from "./images/lien-hoa.png";
 import accessImg from "./images/access-bt-bg.svg";
 import boCongThuong from "./images/bo-cong-thuong.png";
-import facebookLogo from "./images/facebook-logo.png";
 
 import { useState } from "react";
 import { GoldTable } from "./components/GoldTable";
@@ -101,29 +100,20 @@ const GoldTracking = () => {
         </div>
 
         <div className="company-info__desc__right-block">
-          <a className="company-info__fanpage-text" href="https://www.facebook.com/phuquygroup2003" target="_blank" rel="noreferrer" title="Fanpage Phú Quý">
-            <img src={facebookLogo} alt="facebook logo" style={{width: '30px'}} />
-            Fanpage Phú Quý
-          </a>
-
-          <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="company-info__likepage-text">
-            Đăng nhập Facebook để Thích Trang!
-          </a>
-
           <div 
             class="fb-page fb_iframe_widget" 
             data-href="https://www.facebook.com/phuquygroup2003" 
-            data-tabs="timeline" data-height="210" data-small-header="false" 
+            data-tabs="timeline" data-height="280" data-small-header="false" 
             data-adapt-container-width="true" data-hide-cover="false" 
             data-show-facepile="true" fb-xfbml-state="rendered" 
-            fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=420&amp;height=210&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fphuquygroup2003&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline">
-              <span style={{verticalAlign: 'bottom', width: '340px', height: '210px'}}>
-                <iframe name="ffd9ae0e00f8b" width="410px" height="210px" 
+            fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=&amp;container_width=420&amp;height=280&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fphuquygroup2003&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline">
+              <span style={{verticalAlign: 'bottom', width: '340px', height: '280px'}}>
+                <iframe name="ffd9ae0e00f8b" width="410px" height="280px" 
                 data-testid="fb:page Facebook Social Plugin" 
                 title="fb:page Facebook Social Plugin" 
                 frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" 
-                src="https://www.facebook.com/v2.8/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1233239e0271b4%26domain%3Dgold.phuquy.com.vn%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fgold.phuquy.com.vn%252Ff1aeaf5a0b26a88%26relation%3Dparent.parent&amp;container_width=340&amp;height=210&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fphuquygroup2003&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline" 
-                style={{border: 'none', visibility: 'visible', width: '340px', height: '210px'}} class=""></iframe>
+                src="https://www.facebook.com/v2.8/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1233239e0271b4%26domain%3Dgold.phuquy.com.vn%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fgold.phuquy.com.vn%252Ff1aeaf5a0b26a88%26relation%3Dparent.parent&amp;container_width=340&amp;height=280&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fphuquygroup2003&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline" 
+                style={{border: 'none', visibility: 'visible', width: '340px', height: '280px'}} class=""></iframe>
             </span>
             </div>
         </div>
