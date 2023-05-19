@@ -78,6 +78,10 @@
   margin-right: 10px;
 }
 
+input[type="date"] {
+  min-height: 25px;
+}
+
 .price-table__location {
   font-size: 25px;
   color: #8B171A;
@@ -426,7 +430,7 @@ td:not(:first-child) {
   .charm-mobile-bg {
     display: block;
   }
-  
+
   .charm-bg {
     display: none;
   }
@@ -438,7 +442,7 @@ td:not(:first-child) {
 
   .header-logo {
     width: 244px;
-}
+  }
 
   .align-content {
     padding: 0 40px;
@@ -535,19 +539,22 @@ td:not(:first-child) {
   .company-info .primary-header {
     max-width: 310px;
   }
-  
+
   .company-info__desc {
     flex-direction: column;
     justify-content: center;
+    padding: 0 10px;
   }
 
   .company-info__desc__right-block {
     margin: 15px 0 0 0;
+    text-align: center;
   }
 
   .company-info__intro {
     font-size: 12px;
     line-height: 18px;
+    margin-bottom: 15px;
   }
 
   .company-info__intro__separation {
