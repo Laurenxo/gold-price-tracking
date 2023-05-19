@@ -41,6 +41,41 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px;
+}
+
+.company-info__desc {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.company-info__desc__right-block {
+  max-width: 410px;
+  width: 100%;
+  margin-left: 50px;
+}
+
+.company-info__fanpage-text {
+  font-weight: 700;
+  font-size: 30px;
+  color: rgb(51, 122, 183);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.company-info__likepage-text {
+  color: rgb(51, 122, 183);
+  text-decoration: none;
+  margin-bottom: 24px;
+  font-style: italic;
+  font-weight: 700;
+  display: block;
+  font-size: 16px;
+}
+
+.company-info__fanpage-text img {
+  margin-right: 10px;
 }
 
 .price-table__location {
@@ -114,8 +149,13 @@
 
 .table-filter {
   display: flex;
-  margin-top: 20px;
+  margin: 20px 0;
   align-items: center;
+}
+
+.table-filter input {
+  height: 36px;
+  font-size: 14px;
 }
 
 .table-filter span {
@@ -494,6 +534,15 @@ td:not(:first-child) {
 
   .company-info .primary-header {
     max-width: 310px;
+  }
+  
+  .company-info__desc {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .company-info__desc__right-block {
+    margin: 15px 0 0 0;
   }
 
   .company-info__intro {
